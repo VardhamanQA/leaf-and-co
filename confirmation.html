@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order confirmation – Leaf &amp; Co</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="confirmation">
+  <nav class="nav">
+    <a href="index.html" class="brand" id="brand">Leaf &amp; Co</a>
+    <div class="links">
+      <a href="index.html" id="nav-shop">Shop</a>
+      <a href="cart.html" id="nav-cart">Cart (<span class="badge" id="cart-count">0</span>)</a>
+    </div>
+  </nav>
+  <main>
+    <section class="card">
+      <h1 id="thank-you">Thank you for your order</h1>
+      <p>Order number: <strong id="order-number"></strong></p>
+      <h2>Items ordered</h2>
+      <ul id="order-items"></ul>
+      <p>Total: <strong id="order-total"></strong></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

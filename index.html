@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop – Leaf &amp; Co</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="shop">
+  <nav class="nav">
+    <a href="index.html" class="brand" id="brand">Leaf &amp; Co</a>
+    <div class="links">
+      <a href="index.html" id="nav-shop" aria-current="page">Shop</a>
+      <a href="cart.html" id="nav-cart">Cart (<span class="badge" id="cart-count">0</span>)</a>
+    </div>
+  </nav>
+  <main>
+    <h1>Shop our plants</h1>
+    <label for="category">Category</label>
+    <select id="category">
+      <option value="All">All</option>
+      <option value="Indoor">Indoor</option>
+      <option value="Outdoor">Outdoor</option>
+      <option value="Succulents">Succulents</option>
+    </select>
+    <section class="grid" id="products"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
